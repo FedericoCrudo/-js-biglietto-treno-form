@@ -92,6 +92,7 @@ form .col{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    
 }
 #result,#result2{
    display: flex;
@@ -106,9 +107,11 @@ form .col{
     padding:10px;
     font-weight:bold;
     border-radius: 5px;
+    
 }
 .biglietto{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 100%;
     border-top: 1px solid black;
@@ -118,20 +121,28 @@ form .col{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 20%;
+    flex-basis: 20%;
     background-color: rgba(167, 148, 148, 0.801);
 }
 
 .right-information{
     width: 80%;
+    display: flex;
+    flex-wrap:wrap ;
     justify-content: center;
 }
 .right-information table td{
    text-align: center;
 }
-
-
+#data{
+    padding-top: 20px;
+}
+.show{
+    opacity: 1;
+}
+.hidden{
+    opacity: 0;
+}
 
 .right-information table {
     width: 100%;

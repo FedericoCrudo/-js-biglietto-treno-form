@@ -28,6 +28,7 @@
                 <div class="col">
                     <label for="eta">Fascia d'eta</label>
                     <select name="" id="eta">
+                        <option value=""></option>
                             <option value="maggiorenne">Maggiorenne</option>
                             <option value="over65">Over65</option>
                             <option value="minorenne">minorenne</option>
@@ -43,11 +44,12 @@
     </section>
     <section class=" block m_top_50 ms_text_darkblue"">
         <h2>Il tuo Biglietto</h2>
-        <div class="box m_top_10  pd_20">
+        <div id="box-biglietto" class="box m_top_10 hidden pd_20">
                 <h2>Dettaglio Passegero</h2>
                 <div class="biglietto">
                     <div id="left-information"  class=" pd_20">
                         <h3 class="m_bottom_10">Nome passeggero</h3>
+                        <span id="nomeP"></span>
                     </div>
                     <div class="right-information pd_20">
                         <table>
@@ -58,7 +60,10 @@
                                 <th>Costo biglietto</th>
                             </thead>
                             <tr id="data">
-                                
+                                <td id="offerta"></td>
+                                <td id="carrozza"></td>
+                                <td id="codicecp"></td>
+                                <td id="costo"></td>
                             </tr>
                         </table>
                     </div>
