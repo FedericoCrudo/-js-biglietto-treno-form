@@ -54,6 +54,7 @@ var element = document.getElementById('richiedi');
   
     }    
 );   
+// sezione annulla
 var element = document.getElementById('annulla');
   element.addEventListener('click',
   function() {

@@ -17,14 +17,17 @@
             <div id="message"></div>
             <!-- form -->
             <form action="#" class="pd_50">
+                <!-- sezione nome e cognome -->
                 <div class="col">
                     <label class="m_top_10" for="nome">Nome e Cognome </label>
                     <input type="text" id="nome" placeholder="Inserisci Nome e cognome">
                 </div>
+                <!-- sezione km -->
                 <div class="col">
                      <label for="km">KM da Percorrere</label>
                     <input type="number" id="km" placeholder="KM">
                 </div>
+                <!-- fascia d'eta -->
                 <div class="col">
                     <label for="eta">Fascia d'eta</label>
                     <select name="" id="eta">
@@ -34,23 +37,28 @@
                             <option value="minorenne">minorenne</option>
                     </select>
                 </div>
+                <!-- sezione button -->
                 <div class="button-section m_top_50">
                     <button class="button-green button" id="richiedi" class="text_tras_up" type="submit">Richiedi</button>
                     <button class="button-red button" id="annulla" class="text_tras_up" type="submit">Annulla</button>
-                </div> 
+                </div>
             </form>
 
         </div>
     </section>
+    <!-- sezione hidden/show biglietto -->
     <section class=" block m_top_50 ms_text_darkblue"">
         <h2>Il tuo Biglietto</h2>
+        <!-- box biglietto -->
         <div id="box-biglietto" class="box m_top_10 hidden pd_20">
                 <h2>Dettaglio Passegero</h2>
                 <div class="biglietto">
+                    <!-- informazioni-nome -->
                     <div id="left-information"  class=" pd_20">
                         <h3 class="m_bottom_10">Nome passeggero</h3>
                         <span id="nomeP"></span>
                     </div>
+                    <!-- informazioni biglietto -->
                     <div class="right-information pd_20">
                         <table>
                             <thead>
@@ -68,13 +76,13 @@
                         </table>
                     </div>
                 </div>
-               
-            
+
+
         </div>
     </section>
     </main>
     <footer>
-        
+
     </footer>
     <script src="js/script.js"></script>
 </body>
