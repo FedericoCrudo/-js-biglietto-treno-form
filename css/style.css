@@ -125,12 +125,13 @@ form .col{
 
 .right-information{
     width: 80%;
+    justify-content: center;
 }
-.right-information .data{
-    display: flex;
-    text-align: center;
- 
+.right-information table td{
+   text-align: center;
 }
+
+
 
 .right-information table {
     width: 100%;
