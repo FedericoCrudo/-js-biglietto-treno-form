@@ -1,0 +1,137 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    width: 60%;
+    
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+textarea:focus, input:focus, select:focus{
+    outline: none;
+   box-shadow: none;
+}
+form .col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: baseline;
+    flex-basis: 250px;
+    
+}
+.block input, .block select{
+    margin-top: 5px;
+    border:none;
+    border-bottom:2px solid grey;
+    height: 30px;
+    width: 100%;
+  
+}
+.block input:focus{
+    border-bottom: 2px solid rgba(37, 172, 37, 0.726);
+    transition: 0.8s;
+     margin-top:8px ;
+    transform: scale(1);
+}
+.block label{
+    margin-top:5px ;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right:20px ;
+    
+}
+::-webkit-input-placeholder {
+    font-size: 16px;  
+}
+.block form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.block form .button-section{
+    width: 60%;
+    display: flex;
+ 
+    justify-content: center;
+}
+.block form .button{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    padding: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.button-green{
+    background-color: rgba(37, 172, 37, 0.726);
+}
+.button-red{
+    background-color: rgba(255, 0, 0, 0.774);
+}
+.block form button:hover{
+    transform: scale(1.15);
+    transition: 0.8s;
+}
+#message{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#result,#result2{
+   display: flex;
+   justify-content: center;
+}
+#text{
+    color:white; 
+    display: flex;
+    width: 50%;
+    justify-content: center; 
+    background-color:rgba(255, 0, 0, 0.637);
+    padding:10px;
+    font-weight:bold;
+    border-radius: 5px;
+}
+.biglietto{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#left-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: rgba(167, 148, 148, 0.801);
+}
+
+.right-information{
+    width: 80%;
+}
+.right-information .data{
+    display: flex;
+    text-align: center;
+ 
+}
+
+.right-information table {
+    width: 100%;
+}
