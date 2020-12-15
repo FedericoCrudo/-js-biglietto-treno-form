@@ -130,12 +130,14 @@ form .col{
     display: flex;
     flex-wrap:wrap ;
     justify-content: center;
+}.right-information table{
+    height: 100%;
 }
 .right-information table td{
    text-align: center;
 }
 #data{
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .show{
     opacity: 1;
